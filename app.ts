@@ -37,11 +37,17 @@
 // abcd({name: "Umayer", age: 21, key: "Hello"})
 
 
-class A <T> {
-    constructor(public key: T){
+// class A <T> {
+//     constructor(public key: T){
 
-    }
+//     }
+// }
+// const b = new A<number>(100)
+// const c = new A<string>("Umayer")
+// console.log(b)
+
+const a = <T> (a: T, b: T): T => {
+    return b
 }
-const b = new A<number>(100)
-const c = new A<string>("Umayer")
-console.log(b)
+
+console.log(a("Hi", "Umayer"))

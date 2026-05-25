@@ -29,13 +29,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     console.log(obj.key)
 // }
 // abcd({name: "Umayer", age: 21, key: "Hello"})
-class A {
-    key;
-    constructor(key) {
-        this.key = key;
-    }
-}
-const b = new A(100);
-const c = new A("Umayer");
-console.log(b);
+// class A <T> {
+//     constructor(public key: T){
+//     }
+// }
+// const b = new A<number>(100)
+// const c = new A<string>("Umayer")
+// console.log(b)
+const a = (a, b) => {
+    return b;
+};
+console.log(a("Hi", "Umayer"));
 //# sourceMappingURL=app.js.map
