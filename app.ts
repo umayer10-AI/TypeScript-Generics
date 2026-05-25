@@ -25,13 +25,13 @@
 // a('12')
 
 
-interface User <T> {
-    name: string,
-    age: number,
-    key: T,
-}
+// interface User <T> {
+//     name: string,
+//     age: number,
+//     key: T,
+// }
 
-function abcd(obj: User<string>){
-    console.log(obj.key)
-}
-abcd({name: "Umayer", age: 21, key: "Hello"})
+// function abcd(obj: User<string>){
+//     console.log(obj.key)
+// }
+// abcd({name: "Umayer", age: 21, key: "Hello"})
