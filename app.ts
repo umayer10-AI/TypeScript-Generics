@@ -47,7 +47,8 @@
 // console.log(b)
 
 const a = <T> (a: T, b: T): T => {
-    return b
+    // return b
+    return <T>"Hey"
 }
 
-console.log(a("Hi", "Umayer"))
+console.log(a<string>("Hi", "Umayer"))

@@ -37,7 +37,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // const c = new A<string>("Umayer")
 // console.log(b)
 const a = (a, b) => {
-    return b;
+    // return b
+    return "Hey";
 };
 console.log(a("Hi", "Umayer"));
 //# sourceMappingURL=app.js.map
