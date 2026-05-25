@@ -1,4 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let a = 10;
+const a = (v) => { };
+a("Umayer");
+a(12);
+a(true);
 //# sourceMappingURL=app.js.map
