@@ -1,4 +1,4 @@
-const a = (v: string) =>{}
+const a = (v: any) =>{}
 
 a("Umayer")
 a(12)
