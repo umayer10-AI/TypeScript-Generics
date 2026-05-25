@@ -29,4 +29,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     console.log(obj.key)
 // }
 // abcd({name: "Umayer", age: 21, key: "Hello"})
+class A {
+    key;
+    constructor(key) {
+        this.key = key;
+    }
+}
+const b = new A(100);
+const c = new A("Umayer");
+console.log(b);
 //# sourceMappingURL=app.js.map

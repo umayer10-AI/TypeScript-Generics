@@ -35,3 +35,13 @@
 //     console.log(obj.key)
 // }
 // abcd({name: "Umayer", age: 21, key: "Hello"})
+
+
+class A <T> {
+    constructor(public key: T){
+
+    }
+}
+const b = new A<number>(100)
+const c = new A<string>("Umayer")
+console.log(b)
