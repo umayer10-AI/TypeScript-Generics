@@ -12,3 +12,4 @@ const a = <T> (v: T) => {
 }
 a<string>("Umayer")
 a<number>(12)
+a(true)
