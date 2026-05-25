@@ -7,3 +7,8 @@
 // a(true)
 
 
+const a = <T> (v: T) => {
+    console.log(v)
+}
+a<string>("Umayer")
+a<number>(12)
